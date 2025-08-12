@@ -28,7 +28,7 @@ if ingredient_list:
 
     for fruit_chosen in ingredient_list:
         ingredients_string += fruit_chosen + ' '
-      st.subheader(fruit_chosen + 'Nutrition Information')
+        st.subheader(fruit_chosen + 'Nutrition Information')
 
     # st.write(ingredients_string)
     # st.text(ingredient_list)
